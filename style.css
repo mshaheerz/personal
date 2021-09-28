@@ -1,0 +1,90 @@
+body{ 
+    background-color: #010;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:right bottom; 
+    font-family: Bradley Hand ITC; 
+    font-size: 27px;
+    }
+    h1 {
+    padding: 10px 15px;
+    margin: 0px;
+    font-size: 14px;
+    background-color: #000000;
+    background-image: -moz-linear-gradient(100% 100% 90deg, #777, #999) !important;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#999), to(#777)) !important;
+    color: #FFF;
+    //-webkit-border-radius:8px 8px 0px 0px;
+    //-moz-border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
+    text-shadow:1px 1px 2px #333333;
+    opacity: 0.5;
+    }
+    table {
+    width: 565px;
+    }
+    table tr td{
+    font-family: verdana;
+    font-size: 11px;
+    padding: 10px 5px;
+    border-bottom: solid 1px #CCC;
+    
+    }
+    #wrapper{
+    width: 800px;
+    height: 600px;
+    margin: 10px auto;
+    text-align: left;
+    background: url('http://pre14.deviantart.net/d8fa/th/pre/i/2013/306/6/7/download_anonymous_2_by_paullus23-d6sq1x5.jpg') no-repeat center center fixed ;
+    }
+    #console{
+    height: 600px;
+    overflow:auto;
+    background-color: #000;
+    padding: 15px;
+    font-family: monospace;
+    font-size: 12px;
+    color: #FFF;
+    }
+    .content{
+    padding: 15px;
+    }
+    #commander{
+    border: solid 1px #CCC;
+    padding: 5px 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin: 5px;
+    width: 590px;
+    height: 30px;
+    }
+    .box{
+    -moz-box-shadow: 1px 1px 8px #666;
+    -webkit-box-shadow: 1px 1px 8px #666;
+    box-shadow: 1px 1px 8px #40D5D2;
+    border: solid 1px black;
+    -webkit-border-radius: 8px 8px 0px 0px;
+    -moz-border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 0px 0px;
+    margin: 15px 0px;
+    background-color: #F5F5F5;
+    opacity: 0.8;
+    }
+    #help{
+    width: 300px;
+    float: right;
+    }
+    .prefix{
+    color: #0077E7;
+    }
+    .keyword{
+    color: #9eff63;
+    }
+    .error{
+    color: #FF0000;
+    }
+    .spacer{
+    clear: both;
+    display:contents;
+    }
